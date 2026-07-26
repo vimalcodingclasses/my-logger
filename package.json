@@ -1,6 +1,6 @@
 {
   "name": "@vimalcodingclasses/my-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple TypeScript logger module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -25,5 +25,8 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "typescript": "^7.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
